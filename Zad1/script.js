@@ -6,7 +6,7 @@ do {
         name = prompt("Enter product name:");
     } while (name == "");
     let price = Number(prompt("Enter product price:"));
-    while(isNaN(price) || price==""){
+    while(isNaN(price)){
         price = Number(prompt("Invalid price, enter again:"));
     }
     let color;
